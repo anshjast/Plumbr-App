@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'screens/loginscreen.dart';
+import 'screens/role_selection.dart';
+
 
 void main() {
   runApp(const PlumbrApp());
@@ -42,7 +45,6 @@ class RoleSelectionScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Spacer(flex: 3),
-              // Actual Logo
               Image.asset('assets/logo.png', height: 250),
               const Spacer(flex: 2),
               _buildButton(context, "Plumber"),
